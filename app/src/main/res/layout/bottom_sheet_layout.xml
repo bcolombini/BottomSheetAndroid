@@ -4,47 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:padding="10dp"
-        android:id="@+id/save">
+        android:drawablePadding="10dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_get_app_black_24dp"
+        android:gravity="left|center_vertical"
+        android:text="Salvar" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_get_app_black_24dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:padding="2dp"
-            android:text="Salvar" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/share"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:padding="10dp"
-        android:id="@+id/share">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_share_black_24dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:padding="2dp"
-            android:text="Compartilhar" />
-
-    </LinearLayout>
+        android:drawablePadding="10dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/ic_share_black_24dp"
+        android:gravity="left|center_vertical"
+        android:text="Compartilhar" />
 
 
 </LinearLayout>

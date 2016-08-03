@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button2 = (Button) findViewById(R.id.button_2);
         Button button3 = (Button) findViewById(R.id.button_3);
 
-        LinearLayout LinearButton1 = (LinearLayout) findViewById(R.id.save);
-        LinearLayout LinearButton2 = (LinearLayout) findViewById(R.id.share);
+        Button LinearButton1 = (Button) findViewById(R.id.save);
+        Button LinearButton2 = (Button) findViewById(R.id.share);
 
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
